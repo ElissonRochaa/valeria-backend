@@ -1,0 +1,853 @@
+nohup: ignoring input
+model carregado com sucesso
+ * Serving Flask app 'main'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.4:5000
+Press CTRL+C to quit
+187.19.254.101 - - [06/Jun/2023 02:23:12] "POST /predict HTTP/1.1" 200 -
+187.19.254.101 - - [06/Jun/2023 02:23:28] "POST /predict HTTP/1.1" 200 -
+187.19.254.101 - - [06/Jun/2023 02:23:41] "POST /predict HTTP/1.1" 200 -
+170.106.115.253 - - [06/Jun/2023 02:37:44] code 400, message Bad request version ('À\x13À')
+170.106.115.253 - - [06/Jun/2023 02:37:44] "\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03I\x06²ù¼\x99iÀYûøºe-\x83Ud]\x0e\x8d·b8´gÆÝ9dZ8f gÁ\x81i³öòË°©\x19NÖ½\x95g|püé<Z¡\x90T·é¥8'O;\x00&À+À/À,À0Ì©Ì¨À\x09À\x13À" HTTPStatus.BAD_REQUEST -
+170.106.115.253 - - [06/Jun/2023 02:37:54] "GET / HTTP/1.1" 200 -
+52.156.108.63 - - [06/Jun/2023 03:03:04] "GET / HTTP/1.0" 200 -
+52.156.108.63 - - [06/Jun/2023 03:03:04] code 400, message Bad request version ('RTSP/1.0')
+52.156.108.63 - - [06/Jun/2023 03:03:04] "OPTIONS / RTSP/1.0" HTTPStatus.BAD_REQUEST -
+52.156.108.63 - - [06/Jun/2023 03:03:05] code 400, message Bad HTTP/0.9 request type ('\x00')
+52.156.108.63 - - [06/Jun/2023 03:03:05] "\x00\x1e\x00\x06\x01\x00\x00\x01\x00\x00\x00\x00\x00\x00\x07version\x04bind\x00\x00\x10\x00\x03" HTTPStatus.BAD_REQUEST -
+52.156.108.63 - - [06/Jun/2023 03:03:06] code 400, message Bad request version ('0.12\x00')
+52.156.108.63 - - [06/Jun/2023 03:03:06] "\x00\x00\x00¤ÿSMBr\x00\x00\x00\x00\x08\x01@\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00@\x06\x00\x00\x01\x00\x00\x81\x00\x02PC NETWORK PROGRAM 1.0\x00\x02MICROSOFT NETWORKS 1.03\x00\x02MICROSOFT NETWORKS 3.0\x00\x02LANMAN1.0\x00\x02LM1.2X002\x00\x02Samba\x00\x02NT LANMAN 1.0\x00\x02NT LM 0.12\x00" HTTPStatus.BAD_REQUEST -
+52.156.108.63 - - [06/Jun/2023 03:03:08] code 400, message Bad request version ('GetClassName\x00\x00\x00\x02\x04\x00\x00\x00\x00\x01\x00')
+52.156.108.63 - - [06/Jun/2023 03:03:08] "\x00\x00\x00\x1f\x00\x00\x00\x00\x00\x00\x00\x0cGetClassName\x00\x00\x00\x02\x04\x00\x00\x00\x00\x01\x00" HTTPStatus.BAD_REQUEST -
+52.156.108.63 - - [06/Jun/2023 03:03:08] "OPTIONS / HTTP/1.0" 200 -
+52.156.108.63 - - [06/Jun/2023 03:03:09] code 400, message Bad request version ('\x00\x01\x97|\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00')
+52.156.108.63 - - [06/Jun/2023 03:03:09] "\x80\x00\x00(rþ\x1d\x13\x00\x00\x00\x00\x00\x00\x00\x02\x00\x01\x86 \x00\x01\x97|\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00" HTTPStatus.BAD_REQUEST -
+52.156.108.63 - - [06/Jun/2023 03:03:09] code 400, message Bad request syntax ('HELP')
+52.156.108.63 - - [06/Jun/2023 03:03:09] "HELP" HTTPStatus.BAD_REQUEST -
+52.156.108.63 - - [06/Jun/2023 03:03:09] code 400, message Bad request syntax ('\x16\x03\x00\x00S\x01\x00\x00O\x03\x00?G×÷º,îê²`~ó\x00ý\x82{¹Õ\x96Èw\x9bæÄÛ<=Ûoï\x10n\x00\x00(\x00\x16\x00\x13\x00')
+52.156.108.63 - - [06/Jun/2023 03:03:09] "\x16\x03\x00\x00S\x01\x00\x00O\x03\x00?G×÷º,îê²`~ó\x00ý\x82{¹Õ\x96Èw\x9bæÄÛ<=Ûoï\x10n\x00\x00(\x00\x16\x00\x13\x00" HTTPStatus.BAD_REQUEST -
+52.156.108.63 - - [06/Jun/2023 03:03:09] code 400, message Bad request version ('\x00/\x00')
+52.156.108.63 - - [06/Jun/2023 03:03:09] "\x16\x03\x00\x00i\x01\x00\x00e\x03\x03U\x1c§ärandom1random2random3random4\x00\x00\x0c\x00/\x00" HTTPStatus.BAD_REQUEST -
+185.180.143.7 - - [06/Jun/2023 04:26:34] "GET / HTTP/1.1" 200 -
+177.56.178.158 - - [06/Jun/2023 11:41:26] "OPTIONS /predict HTTP/1.1" 200 -
+177.56.178.158 - - [06/Jun/2023 11:41:27] "POST /predict HTTP/1.1" 200 -
+177.56.178.158 - - [06/Jun/2023 11:46:50] "OPTIONS /predict HTTP/1.1" 200 -
+177.56.178.158 - - [06/Jun/2023 11:46:51] "POST /predict HTTP/1.1" 200 -
+177.56.178.158 - - [06/Jun/2023 11:47:42] "OPTIONS /predict HTTP/1.1" 200 -
+177.56.178.158 - - [06/Jun/2023 11:47:43] "POST /predict HTTP/1.1" 200 -
+177.56.178.158 - - [06/Jun/2023 11:47:48] "OPTIONS /predict HTTP/1.1" 200 -
+177.56.178.158 - - [06/Jun/2023 11:47:49] "POST /predict HTTP/1.1" 200 -
+177.56.178.158 - - [06/Jun/2023 11:48:07] "OPTIONS /predict HTTP/1.1" 200 -
+model carregado com sucesso
+Entrou no predict
+{'quant_dias': 15, 'febre': True, 'mialgia': True, 'cefaleia': False, 'exantema': True, 'nausea': True, 'dor_nas_costas': True, 'conjuntivite': False, 'artrite': True, 'artralgia': False, 'petequias': True, 'dor_retroorbital': True, 'diabetes': False, 'hipertensao': True}
+OUTRAS_DOENCAS
+[0.21672851 0.38869912 0.39457238]
+                   index Resposta do Paciente
+0           Conjuntivite                  Não
+1              Artralgia                  Não
+2               Cefaleia                  Não
+3               Diabetes                  Não
+4   Período dos sintomas                   15
+5                Artrite                  Sim
+6                  Febre                  Sim
+7         Dor nas costas                  Sim
+8                Mialgia                  Sim
+9       Dor Retroorbital                  Sim
+10                Náusea                  Sim
+11             Petéquias                  Sim
+12              Exantema                  Sim
+13           Hipertensão                  Sim
+model carregado com sucesso
+Entrou no predict
+{'quant_dias': 15, 'febre': True, 'mialgia': True, 'cefaleia': False, 'exantema': True, 'nausea': True, 'dor_nas_costas': False, 'conjuntivite': False, 'artrite': True, 'artralgia': False, 'petequias': True, 'dor_retroorbital': True, 'diabetes': False, 'hipertensao': True}
+DENGUE
+[0.21994218 0.50061053 0.27944729]
+                   index Resposta do Paciente
+0            Hipertensão                  Sim
+1                Artrite                  Sim
+2               Cefaleia                  Não
+3               Diabetes                  Não
+4              Artralgia                  Não
+5         Dor nas costas                  Não
+6           Conjuntivite                  Não
+7                Mialgia                  Sim
+8               Exantema                  Sim
+9              Petéquias                  Sim
+10                Náusea                  Sim
+11                 Febre                  Sim
+12      Dor Retroorbital                  Sim
+13  Período dos sintomas                   15
+model carregado com sucesso
+Entrou no predict
+{'quant_dias': 15, 'febre': True, 'mialgia': True, 'cefaleia': False, 'exantema': True, 'nausea': True, 'dor_nas_costas': False, 'conjuntivite': False, 'artrite': True, 'artralgia': False, 'petequias': True, 'dor_retroorbital': True, 'diabetes': False, 'hipertensao': True}
+DENGUE
+[0.21994218 0.50061053 0.27944729]
+                   index Resposta do Paciente
+0              Petéquias                  Sim
+1            Hipertensão                  Sim
+2              Artralgia                  Não
+3               Cefaleia                  Não
+4         Dor nas costas                  Não
+5           Conjuntivite                  Não
+6               Diabetes                  Não
+7                 Náusea                  Sim
+8                Mialgia                  Sim
+9                  Febre                  Sim
+10              Exantema                  Sim
+11      Dor Retroorbital                  Sim
+12               Artrite                  Sim
+13  Período dos sintomas                   15
+model carregado com sucesso
+Entrou no predict
+{'quant_dias': False, 'febre': True, 'mialgia': True, 'cefaleia': False, 'exantema': True, 'nausea': False, 'dor_nas_costas': True, 'conjuntivite': False, 'artrite': True, 'artralgia': True, 'petequias': True, 'dor_retroorbital': False, 'diabetes': False, 'hipertensao': False}
+CHIKUNGUNYA
+[0.84722291 0.09999471 0.05278238]
+                   index Resposta do Paciente
+0            Hipertensão                False
+1       Dor Retroorbital                False
+2               Cefaleia                False
+3               Diabetes                False
+4           Conjuntivite                False
+5                 Náusea                False
+6         Dor nas costas                 True
+7                Mialgia                 True
+8              Artralgia                 True
+9                Artrite                 True
+10             Petéquias                 True
+11              Exantema                 True
+12                 Febre                 True
+13  Período dos sintomas                False
+model carregado com sucesso
+Entrou no predict
+{'quant_dias': False, 'febre': False, 'mialgia': True, 'cefaleia': True, 'exantema': True, 'nausea': False, 'dor_nas_costas': True, 'conjuntivite': False, 'artrite': True, 'artralgia': True, 'petequias': True, 'dor_retroorbital': False, 'diabetes': False, 'hipertensao': False}
+OUTRAS_DOENCAS
+[0.41609753 0.14588766 0.43801482]
+                   index Resposta do Paciente
+0                  Febre                False
+1       Dor Retroorbital                False
+2                 Náusea                False
+3               Diabetes                False
+4           Conjuntivite                False
+5            Hipertensão                False
+6                Mialgia                 True
+7                Artrite                 True
+8              Artralgia                 True
+9         Dor nas costas                 True
+10              Exantema                 True
+11              Cefaleia                 True
+12             Petéquias                 True
+13  Período dos sintomas                False
+model carregado com sucesso
+Entrou no predict
+{'quant_dias': False, 'febre': True, 'mialgia': False, 'cefaleia': False, 'exantema': False, 'nausea': True, 'dor_nas_costas': True, 'conjuntivite': False, 'artrite': False, 'artralgia': True, 'petequias': False, 'dor_retroorbital': False, 'diabetes': False, 'hipertensao': False}
+CHIKUNGUNYA
+[0.63136535 0.18829435 0.1803403 ]
+                   index Resposta do Paciente
+0           Conjuntivite                False
+1            Hipertensão                False
+2              Petéquias                False
+3       Dor Retroorbital                False
+4               Exantema                False
+5               Diabetes                False
+6                Mialgia                False
+7                Artrite                False
+8               Cefaleia                False
+9              Artralgia                 True
+10        Dor nas costas                 True
+11                 Febre                 True
+12                Náusea                 True
+13  Período dos sintomas                False
+model carregado com sucesso
+Entrou no predict
+{'quant_dias': False, 'febre': False, 'mialgia': False, 'cefaleia': False, 'exantema': False, 'nausea': False, 'dor_nas_costas': False, 'conjuntivite': False, 'artrite': False, 'artralgia': False, 'petequias': False, 'dor_retroorbital': False, 'diabetes': False, 'hipertensao': False}
+OUTRAS_DOENCAS
+[0.08335744 0.18854572 0.72809683]
+                   index Resposta do Paciente
+0                  Febre                False
+1            Hipertensão                False
+2                Artrite                False
+3              Petéquias                False
+4       Dor Retroorbital                False
+5                 Náusea                False
+6         Dor nas costas                False
+7           Conjuntivite                False
+8               Exantema                False
+9               Diabetes                False
+10              Cefaleia                False
+11             Artralgia                False
+12               Mialgia                False
+13  Período dos sintomas                False
+model carregado com sucesso
+Entrou no predict
+{'quant_dias': False, 'febre': True, 'mialgia': True, 'cefaleia': True, 'exantema': True, 'nausea': False, 'dor_nas_costas': False, 'conjuntivite': True, 'artrite': False, 'artralgia': False, 'petequias': False, 'dor_retroorbital': True, 'diabetes': True, 'hipertensao': False}
+CHIKUNGUNYA
+[0.4704782  0.39073822 0.13878358]
+177.56.178.158 - - [06/Jun/2023 11:48:08] "POST /predict HTTP/1.1" 200 -
+177.56.178.158 - - [06/Jun/2023 11:48:24] "OPTIONS /predict HTTP/1.1" 200 -
+177.56.178.158 - - [06/Jun/2023 11:48:25] "POST /predict HTTP/1.1" 200 -
+177.56.178.158 - - [06/Jun/2023 11:48:38] "OPTIONS /predict HTTP/1.1" 200 -
+177.56.178.158 - - [06/Jun/2023 11:48:38] "POST /predict HTTP/1.1" 200 -
+177.56.178.158 - - [06/Jun/2023 11:48:54] "OPTIONS /predict HTTP/1.1" 200 -
+177.56.178.158 - - [06/Jun/2023 11:48:55] "POST /predict HTTP/1.1" 200 -
+177.56.178.158 - - [06/Jun/2023 11:49:37] "OPTIONS /predict HTTP/1.1" 200 -
+187.19.254.101 - - [06/Jun/2023 11:49:38] "OPTIONS /predict HTTP/1.1" 200 -
+177.56.178.158 - - [06/Jun/2023 11:49:38] "POST /predict HTTP/1.1" 200 -
+187.19.254.101 - - [06/Jun/2023 11:49:38] "POST /predict HTTP/1.1" 200 -
+177.56.178.158 - - [06/Jun/2023 11:49:48] "OPTIONS /predict HTTP/1.1" 200 -
+177.56.178.158 - - [06/Jun/2023 11:49:49] "POST /predict HTTP/1.1" 200 -
+191.57.165.62 - - [06/Jun/2023 14:01:10] "OPTIONS /predict HTTP/1.1" 200 -
+191.57.165.62 - - [06/Jun/2023 14:01:11] "POST /predict HTTP/1.1" 200 -
+191.57.165.62 - - [06/Jun/2023 14:01:42] "OPTIONS /predict HTTP/1.1" 200 -
+                   index Resposta do Paciente
+0                Artrite                False
+1              Artralgia                False
+2              Petéquias                False
+3         Dor nas costas                False
+4                 Náusea                False
+5            Hipertensão                False
+6           Conjuntivite                 True
+7               Diabetes                 True
+8       Dor Retroorbital                 True
+9               Cefaleia                 True
+10               Mialgia                 True
+11              Exantema                 True
+12                 Febre                 True
+13  Período dos sintomas                False
+model carregado com sucesso
+Entrou no predict
+{'quant_dias': False, 'febre': True, 'mialgia': True, 'cefaleia': True, 'exantema': True, 'nausea': True, 'dor_nas_costas': True, 'conjuntivite': True, 'artrite': False, 'artralgia': True, 'petequias': True, 'dor_retroorbital': False, 'diabetes': True, 'hipertensao': True}
+CHIKUNGUNYA
+[0.66687587 0.12464217 0.20848196]
+                   index Resposta do Paciente
+0                Artrite                False
+1       Dor Retroorbital                False
+2                 Náusea                 True
+3               Exantema                 True
+4                Mialgia                 True
+5            Hipertensão                 True
+6                  Febre                 True
+7               Cefaleia                 True
+8           Conjuntivite                 True
+9              Artralgia                 True
+10              Diabetes                 True
+11        Dor nas costas                 True
+12             Petéquias                 True
+13  Período dos sintomas                False
+model carregado com sucesso
+Entrou no predict
+{'quant_dias': False, 'febre': True, 'mialgia': True, 'cefaleia': False, 'exantema': True, 'nausea': True, 'dor_nas_costas': False, 'conjuntivite': False, 'artrite': False, 'artralgia': False, 'petequias': True, 'dor_retroorbital': False, 'diabetes': True, 'hipertensao': False}
+CHIKUNGUNYA
+[0.75744049 0.14405388 0.09850563]
+                   index Resposta do Paciente
+0               Cefaleia                False
+1       Dor Retroorbital                False
+2           Conjuntivite                False
+3              Artralgia                False
+4         Dor nas costas                False
+5                Artrite                False
+6            Hipertensão                False
+7               Diabetes                 True
+8               Exantema                 True
+9                 Náusea                 True
+10             Petéquias                 True
+11                 Febre                 True
+12               Mialgia                 True
+13  Período dos sintomas                False
+model carregado com sucesso
+Entrou no predict
+{'quant_dias': False, 'febre': True, 'mialgia': True, 'cefaleia': True, 'exantema': False, 'nausea': False, 'dor_nas_costas': True, 'conjuntivite': True, 'artrite': False, 'artralgia': True, 'petequias': False, 'dor_retroorbital': False, 'diabetes': False, 'hipertensao': False}
+CHIKUNGUNYA
+[0.54441193 0.28753912 0.16804895]
+                   index Resposta do Paciente
+0              Petéquias                False
+1               Diabetes                False
+2               Exantema                False
+3                Artrite                False
+4       Dor Retroorbital                False
+5                 Náusea                False
+6            Hipertensão                False
+7         Dor nas costas                 True
+8              Artralgia                 True
+9                  Febre                 True
+10               Mialgia                 True
+11              Cefaleia                 True
+12          Conjuntivite                 True
+13  Período dos sintomas                False
+model carregado com sucesso
+Entrou no predict
+{'quant_dias': False, 'febre': True, 'mialgia': True, 'cefaleia': True, 'exantema': True, 'nausea': True, 'dor_nas_costas': True, 'conjuntivite': True, 'artrite': False, 'artralgia': False, 'petequias': True, 'dor_retroorbital': False, 'diabetes': True, 'hipertensao': True}
+OUTRAS_DOENCAS
+[0.0841842  0.10299545 0.81282035]
+model carregado com sucesso
+                   index Resposta do Paciente
+0              Artralgia                False
+1       Dor Retroorbital                False
+2                Artrite                False
+3               Diabetes                 True
+4           Conjuntivite                 True
+5            Hipertensão                 True
+6              Petéquias                 True
+7                 Náusea                 True
+8               Exantema                 True
+9         Dor nas costas                 True
+10               Mialgia                 True
+11                 Febre                 True
+12              Cefaleia                 True
+13  Período dos sintomas                False
+Entrou no predict
+{'quant_dias': False, 'febre': True, 'mialgia': False, 'cefaleia': False, 'exantema': False, 'nausea': False, 'dor_nas_costas': True, 'conjuntivite': False, 'artrite': True, 'artralgia': True, 'petequias': False, 'dor_retroorbital': True, 'diabetes': True, 'hipertensao': False}
+CHIKUNGUNYA
+[0.47043051 0.37365358 0.15591591]
+                   index Resposta do Paciente
+0               Diabetes                 True
+1                Mialgia                False
+2               Cefaleia                False
+3               Exantema                False
+4              Petéquias                False
+5           Conjuntivite                False
+6                 Náusea                False
+7            Hipertensão                False
+8       Dor Retroorbital                 True
+9         Dor nas costas                 True
+10                 Febre                 True
+11             Artralgia                 True
+12               Artrite                 True
+13  Período dos sintomas                False
+model carregado com sucesso
+Entrou no predict
+{'quant_dias': False, 'febre': True, 'mialgia': True, 'cefaleia': True, 'exantema': True, 'nausea': True, 'dor_nas_costas': True, 'conjuntivite': True, 'artrite': True, 'artralgia': True, 'petequias': True, 'dor_retroorbital': True, 'diabetes': True, 'hipertensao': True}
+DENGUE
+[0.30992061 0.58985824 0.10022115]
+                   index Resposta do Paciente
+0   Período dos sintomas                False
+1               Diabetes                 True
+2                Artrite                 True
+3           Conjuntivite                 True
+4                  Febre                 True
+5               Cefaleia                 True
+6       Dor Retroorbital                 True
+7                 Náusea                 True
+8         Dor nas costas                 True
+9              Artralgia                 True
+10               Mialgia                 True
+11           Hipertensão                 True
+12             Petéquias                 True
+13              Exantema                 True
+model carregado com sucesso
+Entrou no predict
+{'quant_dias': False, 'febre': True, 'mialgia': True, 'cefaleia': False, 'exantema': True, 'nausea': False, 'dor_nas_costas': True, 'conjuntivite': True, 'artrite': True, 'artralgia': True, 'petequias': True, 'dor_retroorbital': False, 'diabetes': True, 'hipertensao': False}
+CHIKUNGUNYA
+[0.61663035 0.32975615 0.05361349]
+                   index Resposta do Paciente
+0               Cefaleia                False
+1                 Náusea                False
+2       Dor Retroorbital                False
+3            Hipertensão                False
+4                Artrite                 True
+5           Conjuntivite                 True
+6                  Febre                 True
+7               Exantema                 True
+8         Dor nas costas                 True
+9              Petéquias                 True
+10               Mialgia                 True
+11             Artralgia                 True
+12              Diabetes                 True
+13  Período dos sintomas                False
+model carregado com sucesso
+Entrou no predict
+191.57.165.62 - - [06/Jun/2023 14:01:43] "POST /predict HTTP/1.1" 200 -
+191.57.165.62 - - [06/Jun/2023 14:02:03] "OPTIONS /predict HTTP/1.1" 200 -
+191.57.165.62 - - [06/Jun/2023 14:02:04] "POST /predict HTTP/1.1" 200 -
+191.57.165.62 - - [06/Jun/2023 14:02:13] "OPTIONS /predict HTTP/1.1" 200 -
+191.57.165.62 - - [06/Jun/2023 14:02:14] "POST /predict HTTP/1.1" 200 -
+191.57.165.62 - - [06/Jun/2023 14:02:31] "OPTIONS /predict HTTP/1.1" 200 -
+191.57.165.62 - - [06/Jun/2023 14:02:32] "POST /predict HTTP/1.1" 200 -
+191.57.165.62 - - [06/Jun/2023 14:02:55] "OPTIONS /predict HTTP/1.1" 200 -
+191.57.165.62 - - [06/Jun/2023 14:02:56] "POST /predict HTTP/1.1" 200 -
+62.233.50.179 - - [06/Jun/2023 14:14:07] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+62.233.50.179 - - [06/Jun/2023 14:14:07] "\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+181.191.114.173 - - [06/Jun/2023 14:14:33] "OPTIONS /predict HTTP/1.1" 200 -
+181.191.114.173 - - [06/Jun/2023 14:14:34] "POST /predict HTTP/1.1" 200 -
+172.225.193.42 - - [06/Jun/2023 16:50:54] "OPTIONS /predict HTTP/1.1" 200 -
+172.225.193.42 - - [06/Jun/2023 16:50:55] "POST /predict HTTP/1.1" 200 -
+187.19.254.101 - - [06/Jun/2023 17:22:18] "OPTIONS /predict HTTP/1.1" 200 -
+{'quant_dias': False, 'febre': True, 'mialgia': False, 'cefaleia': True, 'exantema': True, 'nausea': True, 'dor_nas_costas': True, 'conjuntivite': True, 'artrite': False, 'artralgia': False, 'petequias': True, 'dor_retroorbital': True, 'diabetes': True, 'hipertensao': True}
+DENGUE
+[0.0752048  0.56442106 0.36037414]
+                   index Resposta do Paciente
+0   Período dos sintomas                False
+1               Diabetes                 True
+2              Petéquias                 True
+3                 Náusea                 True
+4               Cefaleia                 True
+5       Dor Retroorbital                 True
+6            Hipertensão                 True
+7               Exantema                 True
+8         Dor nas costas                 True
+9                  Febre                 True
+10          Conjuntivite                 True
+11               Mialgia                False
+12             Artralgia                False
+13               Artrite                False
+model carregado com sucesso
+Entrou no predict
+{'quant_dias': False, 'febre': False, 'mialgia': True, 'cefaleia': True, 'exantema': False, 'nausea': False, 'dor_nas_costas': True, 'conjuntivite': True, 'artrite': False, 'artralgia': True, 'petequias': True, 'dor_retroorbital': True, 'diabetes': True, 'hipertensao': True}
+DENGUE
+[0.15289734 0.54979494 0.29730772]
+                   index Resposta do Paciente
+0   Período dos sintomas                False
+1           Conjuntivite                 True
+2              Petéquias                 True
+3              Artralgia                 True
+4       Dor Retroorbital                 True
+5         Dor nas costas                 True
+6                Mialgia                 True
+7            Hipertensão                 True
+8               Cefaleia                 True
+9               Diabetes                 True
+10                Náusea                False
+11                 Febre                False
+12               Artrite                False
+13              Exantema                False
+model carregado com sucesso
+Entrou no predict
+{'quant_dias': False, 'febre': False, 'mialgia': False, 'cefaleia': False, 'exantema': False, 'nausea': False, 'dor_nas_costas': False, 'conjuntivite': False, 'artrite': True, 'artralgia': False, 'petequias': False, 'dor_retroorbital': False, 'diabetes': False, 'hipertensao': False}
+OUTRAS_DOENCAS
+[0.16000859 0.09054511 0.7494463 ]
+                   index Resposta do Paciente
+0               Exantema                False
+1         Dor nas costas                False
+2                  Febre                False
+3                Mialgia                False
+4               Cefaleia                False
+5               Diabetes                False
+6           Conjuntivite                False
+7                 Náusea                False
+8              Petéquias                False
+9              Artralgia                False
+10      Dor Retroorbital                False
+11           Hipertensão                False
+12               Artrite                 True
+13  Período dos sintomas                False
+model carregado com sucesso
+Entrou no predict
+{'quant_dias': False, 'febre': False, 'mialgia': False, 'cefaleia': False, 'exantema': False, 'nausea': False, 'dor_nas_costas': False, 'conjuntivite': False, 'artrite': True, 'artralgia': False, 'petequias': False, 'dor_retroorbital': False, 'diabetes': False, 'hipertensao': False}
+OUTRAS_DOENCAS
+[0.16000859 0.09054511 0.7494463 ]
+                   index Resposta do Paciente
+0                  Febre                False
+1              Artralgia                False
+2           Conjuntivite                False
+3       Dor Retroorbital                False
+4                Mialgia                False
+5               Cefaleia                False
+6               Exantema                False
+7            Hipertensão                False
+8              Petéquias                False
+9               Diabetes                False
+10        Dor nas costas                False
+11                Náusea                False
+12               Artrite                 True
+13  Período dos sintomas                False
+model carregado com sucesso
+Entrou no predict
+{'quant_dias': False, 'febre': False, 'mialgia': True, 'cefaleia': True, 'exantema': False, 'nausea': False, 'dor_nas_costas': False, 'conjuntivite': False, 'artrite': False, 'artralgia': False, 'petequias': True, 'dor_retroorbital': False, 'diabetes': False, 'hipertensao': False}
+OUTRAS_DOENCAS
+[0.16176861 0.37302072 0.46521067]
+                   index Resposta do Paciente
+0           Conjuntivite                False
+1         Dor nas costas                False
+2       Dor Retroorbital                False
+3                  Febre                False
+4               Exantema                False
+5                 Náusea                False
+6              Artralgia                False
+7                Artrite                False
+8               Diabetes                False
+9            Hipertensão                False
+10             Petéquias                 True
+11              Cefaleia                 True
+12               Mialgia                 True
+13  Período dos sintomas                False
+model carregado com sucesso
+Entrou no predict
+{'quant_dias': False, 'febre': False, 'mialgia': False, 'cefaleia': False, 'exantema': False, 'nausea': False, 'dor_nas_costas': True, 'conjuntivite': True, 'artrite': False, 'artralgia': True, 'petequias': False, 'dor_retroorbital': True, 'diabetes': False, 'hipertensao': False}
+DENGUE
+[0.19887638 0.4100439  0.39107972]
+                   index Resposta do Paciente
+0   Período dos sintomas                False
+1           Conjuntivite                 True
+2              Artralgia                 True
+3         Dor nas costas                 True
+4       Dor Retroorbital                 True
+5               Diabetes                False
+6                  Febre                False
+7              Petéquias                False
+8                 Náusea                False
+9               Exantema                False
+10           Hipertensão                False
+11               Artrite                False
+12              Cefaleia                False
+13               Mialgia                False
+model carregado com sucesso
+Entrou no predict
+{'quant_dias': False, 'febre': False, 'mialgia': False, 'cefaleia': True, 'exantema': False, 'nausea': True, 'dor_nas_costas': True, 'conjuntivite': False, 'artrite': False, 'artralgia': True, 'petequias': False, 'dor_retroorbital': False, 'diabetes': True, 'hipertensao': False}
+OUTRAS_DOENCAS
+[0.09026998 0.04209673 0.86763329]
+                   index Resposta do Paciente
+0                Mialgia                False
+1                  Febre                False
+2               Exantema                False
+3                Artrite                False
+4            Hipertensão                False
+5       Dor Retroorbital                False
+6           Conjuntivite                False
+7              Petéquias                False
+8               Cefaleia                 True
+9               Diabetes                 True
+10                Náusea                 True
+11             Artralgia                 True
+12        Dor nas costas                 True
+13  Período dos sintomas                False
+model carregado com sucesso
+Entrou no predict
+{'quant_dias': False, 'febre': False, 'mialgia': False, 'cefaleia': False, 'exantema': False, 'nausea': False, 'dor_nas_costas': True, 'conjuntivite': True, 'artrite': False, 'artralgia': False, 'petequias': False, 'dor_retroorbital': True, 'diabetes': True, 'hipertensao': False}
+OUTRAS_DOENCAS
+[0.123626   0.13335216 0.74302184]
+187.19.254.101 - - [06/Jun/2023 17:22:19] "POST /predict HTTP/1.1" 200 -
+187.19.254.101 - - [06/Jun/2023 17:22:38] "OPTIONS /predict HTTP/1.1" 200 -
+187.19.254.101 - - [06/Jun/2023 17:22:38] "POST /predict HTTP/1.1" 200 -
+187.19.254.101 - - [06/Jun/2023 17:23:09] "OPTIONS /predict HTTP/1.1" 200 -
+187.19.254.101 - - [06/Jun/2023 17:23:09] "POST /predict HTTP/1.1" 200 -
+187.19.254.101 - - [06/Jun/2023 17:23:17] "OPTIONS /predict HTTP/1.1" 200 -
+187.19.254.101 - - [06/Jun/2023 17:23:18] "POST /predict HTTP/1.1" 200 -
+187.19.254.101 - - [06/Jun/2023 17:23:23] "OPTIONS /predict HTTP/1.1" 200 -
+187.19.254.101 - - [06/Jun/2023 17:23:24] "POST /predict HTTP/1.1" 200 -
+187.19.254.101 - - [06/Jun/2023 17:23:28] "POST /predict HTTP/1.1" 200 -
+198.235.24.15 - - [06/Jun/2023 19:18:47] "GET / HTTP/1.1" 200 -
+205.210.31.97 - - [06/Jun/2023 19:35:19] "GET / HTTP/1.0" 200 -
+35.203.210.24 - - [06/Jun/2023 20:53:12] code 400, message Bad request version ('À(À$À\x14À')
+35.203.210.24 - - [06/Jun/2023 20:53:12] "\x16\x03\x01\x00Ê\x01\x00\x00Æ\x03\x03`û?m¸8\x15"#6f6I\x1fôºÙS¼~/üö\x89 ¬å\x8ampªé\x00\x00hÌ\x14Ì\x13À/À+À0À,À\x11À\x07À'À#À\x13À\x09À(À$À\x14À" HTTPStatus.BAD_REQUEST -
+205.210.31.20 - - [06/Jun/2023 22:39:29] "GET / HTTP/1.0" 200 -
+159.203.25.220 - - [06/Jun/2023 23:16:08] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x032Áí\x07çÆ`\x81;\'a¡Ê\x8eh\x14E\x11!\x00¥Àà|í\x8e<"|ÐB5\x00\x00\x1aÀ/À+À\x11À\x07À\x13À')
+159.203.25.220 - - [06/Jun/2023 23:16:08] "\x16\x03\x01\x00{\x01\x00\x00w\x03\x032Áí\x07çÆ`\x81;'a¡Ê\x8eh\x14E\x11!\x00¥Àà|í\x8e<"|ÐB5\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+159.203.25.220 - - [06/Jun/2023 23:16:08] code 400, message Bad request version ('À\x14À')
+159.203.25.220 - - [06/Jun/2023 23:16:08] "\x16\x03\x01\x00{\x01\x00\x00w\x03\x03ë8Ü\x84\x10\x9e0ì\x11\x15Ór\x8epÄ\x99fÒ\x0cÞ\x8eøXB¦`ûpýqé9\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+159.203.25.220 - - [06/Jun/2023 23:16:08] "GET / HTTP/1.1" 200 -
+62.233.50.179 - - [06/Jun/2023 23:53:43] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+62.233.50.179 - - [06/Jun/2023 23:53:43] "\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+45.79.181.251 - - [07/Jun/2023 00:06:08] code 400, message Bad request version ('À\x14À')
+45.79.181.251 - - [07/Jun/2023 00:06:08] "\x16\x03\x01\x00\x85\x01\x00\x00\x81\x03\x03\x15Åe¨±ï¨Wk\x83\x012¾mµ.ß\x10D(?á\x86\x14\x92+úµy·&q\x00\x00 À/À0À+À,Ì¨Ì©À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+20.99.241.169 - - [07/Jun/2023 01:33:24] "GET / HTTP/1.0" 200 -
+20.99.241.169 - - [07/Jun/2023 01:33:24] code 400, message Bad request version ('RTSP/1.0')
+20.99.241.169 - - [07/Jun/2023 01:33:24] "OPTIONS / RTSP/1.0" HTTPStatus.BAD_REQUEST -
+20.99.241.169 - - [07/Jun/2023 01:33:25] code 400, message Bad HTTP/0.9 request type ('\x00')
+20.99.241.169 - - [07/Jun/2023 01:33:25] "\x00\x1e\x00\x06\x01\x00\x00\x01\x00\x00\x00\x00\x00\x00\x07version\x04bind\x00\x00\x10\x00\x03" HTTPStatus.BAD_REQUEST -
+20.99.241.169 - - [07/Jun/2023 01:33:26] code 400, message Bad request version ('0.12\x00')
+20.99.241.169 - - [07/Jun/2023 01:33:26] "\x00\x00\x00¤ÿSMBr\x00\x00\x00\x00\x08\x01@\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00@\x06\x00\x00\x01\x00\x00\x81\x00\x02PC NETWORK PROGRAM 1.0\x00\x02MICROSOFT NETWORKS 1.03\x00\x02MICROSOFT NETWORKS 3.0\x00\x02LANMAN1.0\x00\x02LM1.2X002\x00\x02Samba\x00\x02NT LANMAN 1.0\x00\x02NT LM 0.12\x00" HTTPStatus.BAD_REQUEST -
+20.99.241.169 - - [07/Jun/2023 01:33:27] code 400, message Bad request version ('GetClassName\x00\x00\x00\x02\x04\x00\x00\x00\x00\x01\x00')
+20.99.241.169 - - [07/Jun/2023 01:33:27] "\x00\x00\x00\x1f\x00\x00\x00\x00\x00\x00\x00\x0cGetClassName\x00\x00\x00\x02\x04\x00\x00\x00\x00\x01\x00" HTTPStatus.BAD_REQUEST -
+20.99.241.169 - - [07/Jun/2023 01:33:27] "OPTIONS / HTTP/1.0" 200 -
+20.99.241.169 - - [07/Jun/2023 01:33:28] code 400, message Bad request version ('\x00\x01\x97|\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00')
+20.99.241.169 - - [07/Jun/2023 01:33:28] "\x80\x00\x00(rþ\x1d\x13\x00\x00\x00\x00\x00\x00\x00\x02\x00\x01\x86 \x00\x01\x97|\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00" HTTPStatus.BAD_REQUEST -
+20.99.241.169 - - [07/Jun/2023 01:33:28] code 400, message Bad request syntax ('HELP')
+20.99.241.169 - - [07/Jun/2023 01:33:28] "HELP" HTTPStatus.BAD_REQUEST -
+20.99.241.169 - - [07/Jun/2023 01:33:28] code 400, message Bad request syntax ('\x16\x03\x00\x00S\x01\x00\x00O\x03\x00?G×÷º,îê²`~ó\x00ý\x82{¹Õ\x96Èw\x9bæÄÛ<=Ûoï\x10n\x00\x00(\x00\x16\x00\x13\x00')
+20.99.241.169 - - [07/Jun/2023 01:33:28] "\x16\x03\x00\x00S\x01\x00\x00O\x03\x00?G×÷º,îê²`~ó\x00ý\x82{¹Õ\x96Èw\x9bæÄÛ<=Ûoï\x10n\x00\x00(\x00\x16\x00\x13\x00" HTTPStatus.BAD_REQUEST -
+20.99.241.169 - - [07/Jun/2023 01:33:29] code 400, message Bad request version ('\x00/\x00')
+20.99.241.169 - - [07/Jun/2023 01:33:29] "\x16\x03\x00\x00i\x01\x00\x00e\x03\x03U\x1c§ärandom1random2random3random4\x00\x00\x0c\x00/\x00" HTTPStatus.BAD_REQUEST -
+187.19.254.66 - - [07/Jun/2023 01:34:00] "OPTIONS /predict HTTP/1.1" 200 -
+187.19.254.66 - - [07/Jun/2023 01:34:00] "POST /predict HTTP/1.1" 200 -
+172.105.128.11 - - [07/Jun/2023 03:02:38] "GET / HTTP/1.1" 200 -
+198.235.24.85 - - [07/Jun/2023 03:09:18] "GET / HTTP/1.1" 200 -
+170.64.161.102 - - [07/Jun/2023 07:54:51] "GET / HTTP/1.1" 200 -
+162.243.148.17 - - [07/Jun/2023 12:27:02] "GET /v2/ HTTP/1.1" 404 -
+187.19.254.66 - - [07/Jun/2023 14:25:59] "OPTIONS /predict HTTP/1.1" 200 -
+187.19.254.66 - - [07/Jun/2023 14:26:00] "POST /predict HTTP/1.1" 200 -
+201.9.185.19 - - [07/Jun/2023 14:34:26] "OPTIONS /predict HTTP/1.1" 200 -
+                   index Resposta do Paciente
+0                Mialgia                False
+1               Cefaleia                False
+2               Exantema                False
+3                  Febre                False
+4                 Náusea                False
+5                Artrite                False
+6              Artralgia                False
+7              Petéquias                False
+8            Hipertensão                False
+9           Conjuntivite                 True
+10        Dor nas costas                 True
+11      Dor Retroorbital                 True
+12              Diabetes                 True
+13  Período dos sintomas                False
+model carregado com sucesso
+Entrou no predict
+{'quant_dias': False, 'febre': True, 'mialgia': False, 'cefaleia': False, 'exantema': False, 'nausea': False, 'dor_nas_costas': True, 'conjuntivite': False, 'artrite': False, 'artralgia': True, 'petequias': False, 'dor_retroorbital': True, 'diabetes': False, 'hipertensao': False}
+DENGUE
+[0.36398369 0.41842852 0.21758779]
+                   index Resposta do Paciente
+0   Período dos sintomas                False
+1         Dor nas costas                 True
+2       Dor Retroorbital                 True
+3              Artralgia                 True
+4                  Febre                 True
+5                Artrite                False
+6              Petéquias                False
+7                 Náusea                False
+8               Diabetes                False
+9            Hipertensão                False
+10          Conjuntivite                False
+11               Mialgia                False
+12              Exantema                False
+13              Cefaleia                False
+model carregado com sucesso
+Entrou no predict
+{'quant_dias': False, 'febre': True, 'mialgia': False, 'cefaleia': True, 'exantema': False, 'nausea': True, 'dor_nas_costas': True, 'conjuntivite': False, 'artrite': False, 'artralgia': True, 'petequias': False, 'dor_retroorbital': True, 'diabetes': True, 'hipertensao': False}
+DENGUE
+[0.20825796 0.61336632 0.17837572]
+                   index Resposta do Paciente
+0   Período dos sintomas                False
+1               Diabetes                 True
+2                  Febre                 True
+3       Dor Retroorbital                 True
+4                 Náusea                 True
+5               Cefaleia                 True
+6         Dor nas costas                 True
+7              Artralgia                 True
+8               Exantema                False
+9           Conjuntivite                False
+10           Hipertensão                False
+11             Petéquias                False
+12               Artrite                False
+13               Mialgia                False
+model carregado com sucesso
+Entrou no predict
+{'quant_dias': False, 'febre': True, 'mialgia': False, 'cefaleia': True, 'exantema': False, 'nausea': True, 'dor_nas_costas': True, 'conjuntivite': False, 'artrite': False, 'artralgia': True, 'petequias': False, 'dor_retroorbital': True, 'diabetes': True, 'hipertensao': False}
+DENGUE
+[0.20825796 0.61336632 0.17837572]
+                   index Resposta do Paciente
+0   Período dos sintomas                False
+1               Cefaleia                 True
+2       Dor Retroorbital                 True
+3                 Náusea                 True
+4              Artralgia                 True
+5                  Febre                 True
+6         Dor nas costas                 True
+7            Hipertensão                False
+8              Petéquias                False
+9                Artrite                False
+10              Exantema                False
+11               Mialgia                False
+12          Conjuntivite                False
+13              Diabetes                 True
+model carregado com sucesso
+Entrou no predict
+{'quant_dias': False, 'febre': True, 'mialgia': False, 'cefaleia': True, 'exantema': False, 'nausea': True, 'dor_nas_costas': True, 'conjuntivite': True, 'artrite': False, 'artralgia': True, 'petequias': False, 'dor_retroorbital': True, 'diabetes': True, 'hipertensao': False}
+DENGUE
+[0.21965033 0.61982339 0.16052627]
+                   index Resposta do Paciente
+0   Período dos sintomas                False
+1               Diabetes                 True
+2           Conjuntivite                 True
+3              Artralgia                 True
+4               Cefaleia                 True
+5                 Náusea                 True
+6         Dor nas costas                 True
+7                  Febre                 True
+8       Dor Retroorbital                 True
+9                Artrite                False
+10           Hipertensão                False
+11               Mialgia                False
+12              Exantema                False
+13             Petéquias                False
+model carregado com sucesso
+Entrou no predict
+{'quant_dias': False, 'febre': True, 'mialgia': False, 'cefaleia': True, 'exantema': False, 'nausea': True, 'dor_nas_costas': True, 'conjuntivite': True, 'artrite': False, 'artralgia': True, 'petequias': False, 'dor_retroorbital': True, 'diabetes': True, 'hipertensao': True}
+DENGUE
+[0.38253592 0.45027278 0.1671913 ]
+                   index Resposta do Paciente
+0   Período dos sintomas                False
+1         Dor nas costas                 True
+2       Dor Retroorbital                 True
+3              Artralgia                 True
+4                 Náusea                 True
+5               Cefaleia                 True
+6                  Febre                 True
+7            Hipertensão                 True
+8               Diabetes                 True
+9           Conjuntivite                 True
+10               Artrite                False
+11               Mialgia                False
+12              Exantema                False
+13             Petéquias                False
+model carregado com sucesso
+Entrou no predict
+{'quant_dias': False, 'febre': True, 'mialgia': True, 'cefaleia': True, 'exantema': True, 'nausea': False, 'dor_nas_costas': False, 'conjuntivite': True, 'artrite': False, 'artralgia': True, 'petequias': True, 'dor_retroorbital': True, 'diabetes': False, 'hipertensao': True}
+DENGUE
+[0.24937038 0.57022762 0.18040201]
+                   index Resposta do Paciente
+0   Período dos sintomas                False
+1            Hipertensão                 True
+2       Dor Retroorbital                 True
+3              Petéquias                 True
+4                  Febre                 True
+5              Artralgia                 True
+6               Exantema                 True
+7                Mialgia                 True
+8               Cefaleia                 True
+9           Conjuntivite                 True
+10                Náusea                False
+11              Diabetes                False
+12        Dor nas costas                False
+13               Artrite                False
+model carregado com sucesso
+Entrou no predict
+{'quant_dias': False, 'febre': True, 'mialgia': False, 'cefaleia': False, 'exantema': True, 'nausea': True, 'dor_nas_costas': True, 'conjuntivite': True, 'artrite': False, 'artralgia': True, 'petequias': True, 'dor_retroorbital': False, 'diabetes': False, 'hipertensao': True}
+DENGUE
+[0.34577093 0.44197908 0.21224999]
+                   index Resposta do Paciente
+0   Período dos sintomas                False
+1                  Febre                 True
+2           Conjuntivite                 True
+3                 Náusea                 True
+4              Artralgia                 True
+5         Dor nas costas                 True
+6              Petéquias                 True
+7               Exantema                 True
+8            Hipertensão                 True
+9       Dor Retroorbital                False
+10              Diabetes                False
+11              Cefaleia                False
+12               Mialgia                False
+13               Artrite                False
+model carregado com sucesso
+Entrou no predict
+201.9.185.19 - - [07/Jun/2023 14:34:27] "POST /predict HTTP/1.1" 200 -
+35.203.211.238 - - [07/Jun/2023 18:07:15] code 400, message Bad request version ('À(À$À\x14À')
+35.203.211.238 - - [07/Jun/2023 18:07:15] "\x16\x03\x01\x00Ê\x01\x00\x00Æ\x03\x03Z\x0büïðæ\x8a\x10\x90\x86\x9eÄè\x95Ã\x18\x80£\x8d+-\x17£Æ:È%äbM©£\x00\x00hÌ\x14Ì\x13À/À+À0À,À\x11À\x07À'À#À\x13À\x09À(À$À\x14À" HTTPStatus.BAD_REQUEST -
+167.94.145.58 - - [07/Jun/2023 19:42:33] code 400, message Bad request version ('À\x14À')
+167.94.145.58 - - [07/Jun/2023 19:42:33] "\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03ÎÝ\x87Î'¹\x0c\x89ý¦´á{Ë³\x0cl<\x84åìí­ÚfÙ\x8f`ÖC·â GÌ\x8c\x17\x9cT\x96\x1bÙ\x0f/\x8aT\x972\x1e\x9ek\x81ø\x96@B>\x95¬S\x1c=ç¶Ô\x00&Ì¨Ì©À/À0À+À,À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+167.94.145.58 - - [07/Jun/2023 19:42:34] "GET / HTTP/1.1" 200 -
+167.94.145.58 - - [07/Jun/2023 19:42:34] "GET / HTTP/1.1" 200 -
+167.94.145.58 - - [07/Jun/2023 19:42:35] code 505, message Invalid HTTP version (2.0)
+167.94.145.58 - - [07/Jun/2023 19:42:35] "PRI * HTTP/2.0" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+167.94.145.58 - - [07/Jun/2023 19:42:35] "GET /favicon.ico HTTP/1.1" 404 -
+162.142.125.13 - - [07/Jun/2023 20:06:35] "GET / HTTP/1.1" 200 -
+162.142.125.13 - - [07/Jun/2023 20:06:35] code 505, message Invalid HTTP version (2.0)
+162.142.125.13 - - [07/Jun/2023 20:06:35] "PRI * HTTP/2.0" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+162.142.125.13 - - [07/Jun/2023 20:06:35] "GET /favicon.ico HTTP/1.1" 404 -
+45.227.254.55 - - [07/Jun/2023 20:52:20] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+45.227.254.55 - - [07/Jun/2023 20:52:20] "\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+205.210.31.199 - - [07/Jun/2023 22:39:07] "GET / HTTP/1.1" 200 -
+45.79.181.223 - - [08/Jun/2023 00:10:08] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00')
+45.79.181.223 - - [08/Jun/2023 00:10:08] "\x16\x03\x01\x00\x85\x01\x00\x00\x81\x03\x03&^8{IÌ\x13\x7fÓÏ" HTTPStatus.BAD_REQUEST -
+144.126.224.13 - - [08/Jun/2023 00:38:42] code 400, message Bad request version ('À#À¬À®À+À')
+144.126.224.13 - - [08/Jun/2023 00:38:42] "\x16\x03\x03\x01\x9d\x01\x00\x01\x99\x03\x03øº¿\x9a\x85Á\x09ß9~,téË\x0fÁlY²ðø³£K¬\x09ãÀ\\ô®õ û [/3Æ\x86EzxJ\\°¯\x10PH\x89\\X¦¢27\x067\x91\x93c\x1a9W\x00\x8cÊÊ\x00\x16\x003\x00gÀ\x9eÀ¢\x00\x9e\x009\x00kÀ\x9fÀ£\x00\x9f\x00E\x00¾\x00\x88\x00Ä\x00\x9aÀ\x08À\x09À#À¬À®À+À" HTTPStatus.BAD_REQUEST -
+144.126.224.13 - - [08/Jun/2023 00:38:43] code 400, message Bad request version ('À\x9c\x00<\x00/\x00')
+144.126.224.13 - - [08/Jun/2023 00:38:43] "\x16\x03\x03\x01\x9d\x01\x00\x01\x99\x03\x037i÷ç±`3ó6´¡·Sät÷K¢&;\x13\x85\x87û\x92å\x9bØûgN\x92 o¸µ\x9a\x0bx\x9doÐ\x8f\x96\x96èÚÍ¿8¾\x98.ÓjE\x80\x15µÒs\x18\x00\x0d8\x00\x8cJJ\x00\x05\x00\x04\x00\x07\x00À\x00\x84\x00º\x00A\x00\x9dÀ¡À\x9d\x00=\x005\x00\x9cÀ À\x9c\x00<\x00/\x00" HTTPStatus.BAD_REQUEST -
+144.126.224.13 - - [08/Jun/2023 00:38:43] code 400, message Bad request version ('§y\x00H\x9a\x9aÀ\x12À\x07Ì\x14\x13\x01\x13\x02Ì©ÀsÀrÀ,À¯À\xadÀ$À')
+144.126.224.13 - - [08/Jun/2023 00:38:43] "\x16\x03\x03\x01Y\x01\x00\x01U\x03\x03\x06\x9fM±{ã\x91y\x9d=¯<\x98ßv$1Ë¥ÏÏx É\x12µÈ\x1e\x9f¡\x97\x97 \x87fÏ\x86(\x0e\x93µÇj]ý\x18ã6f®=Í\x0då¨÷\x1då±l\x0bn\x1f§y\x00H\x9a\x9aÀ\x12À\x07Ì\x14\x13\x01\x13\x02Ì©ÀsÀrÀ,À¯À­À$À" HTTPStatus.BAD_REQUEST -
+144.126.224.13 - - [08/Jun/2023 00:38:44] code 400, message Bad request syntax ('\x16\x03\x03\x01K\x01\x00\x01G\x03\x03!þ')
+144.126.224.13 - - [08/Jun/2023 00:38:44] "\x16\x03\x03\x01K\x01\x00\x01G\x03\x03!þ" HTTPStatus.BAD_REQUEST -
+144.126.224.13 - - [08/Jun/2023 00:38:44] code 400, message Bad request version ("6Ò\x1apìôÌä>{Ôc~\x03&î-Ñâ+ZÛöàæ¬\x05¡g±ì\x19\x00\x8aÀ\x12À\x13À\x07À'Ì\x14À/\x13\x01À\x14\x13\x02À(Ì©À0ÀsÀ`ÀrÀaÀ,ÀvÀ¯ÀwÀ\xadÌ¨À$\x13\x05À")
+144.126.224.13 - - [08/Jun/2023 00:38:44] "\x16\x03\x03\x01t\x01\x00\x01p\x03\x03ñE$¢X\x8aât\x94ÑNå\x1f¸ó \x06ªùÐO\x05¨<{¹6­äºñ0 6Ò\x1apìôÌä>{Ôc~\x03&î-Ñâ+ZÛöàæ¬\x05¡g±ì\x19\x00\x8aÀ\x12À\x13À\x07À'Ì\x14À/\x13\x01À\x14\x13\x02À(Ì©À0ÀsÀ`ÀrÀaÀ,ÀvÀ¯ÀwÀ­Ì¨À$\x13\x05À" HTTPStatus.BAD_REQUEST -
+144.126.224.13 - - [08/Jun/2023 00:38:45] code 400, message Bad request version ('À#À¬À®À+À')
+144.126.224.13 - - [08/Jun/2023 00:38:45] "\x16\x03\x02\x01\x9d\x01\x00\x01\x99\x03\x02i+M¹å¾ÞïJv£\\»\x8e\x84U\x1c®IjëCãhÍÔ}\\\x16\x1a}« À¡Ý±\x1bið\x97D)×åC¤5\x05\x87ÉÓå¢ºì\x11z\x8b\x15\x86ó\x00/\x13\x00\x8cúú\x00\x16\x003\x00gÀ\x9eÀ¢\x00\x9e\x009\x00kÀ\x9fÀ£\x00\x9f\x00E\x00¾\x00\x88\x00Ä\x00\x9aÀ\x08À\x09À#À¬À®À+À" HTTPStatus.BAD_REQUEST -
+144.126.224.13 - - [08/Jun/2023 00:38:45] code 400, message Bad request version ('À#À¬À®À+À')
+144.126.224.13 - - [08/Jun/2023 00:38:45] "\x16\x03\x01\x01ª\x01\x00\x01¦\x03\x03öðr¬V2C´ÙÍ\x8aSþ]\x05o\x01¥0V\x09éå©5ü¶QcÃ.* /EÕ&¿#Wy\x87N@-òqÜ\x0e^ÎòV :r\x1d\x02\x92ýH©åN¿\x00\x8cúú\x00\x16\x003\x00gÀ\x9eÀ¢\x00\x9e\x009\x00kÀ\x9fÀ£\x00\x9f\x00E\x00¾\x00\x88\x00Ä\x00\x9aÀ\x08À\x09À#À¬À®À+À" HTTPStatus.BAD_REQUEST -
+144.126.224.13 - - [08/Jun/2023 00:38:45] code 400, message Bad request version ('À\x9c\x00<\x00/\x00')
+144.126.224.13 - - [08/Jun/2023 00:38:45] "\x16\x03\x01\x01ª\x01\x00\x01¦\x03\x03\x8e\x8c+àÍô*cm \x8d÷'\x8a\x84ç³+×\x1d\x06\x853ù_G\x01vo×X\x1e ­\x00\x98\x8aù\x1aL×c*§\x91*þ÷½\x86\x95b\x83@C9\x00Y­j\x14ÌÐ,À\x00\x8cÊÊ\x00\x05\x00\x04\x00\x07\x00À\x00\x84\x00º\x00A\x00\x9dÀ¡À\x9d\x00=\x005\x00\x9cÀ À\x9c\x00<\x00/\x00" HTTPStatus.BAD_REQUEST -
+144.126.224.13 - - [08/Jun/2023 00:38:46] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x01')
+144.126.224.13 - - [08/Jun/2023 00:38:46] "\x16\x03\x01\x01 \x01\x00\x01\x9c\x03\x03\x9cÕBÆÄ^\x89ÙMf" HTTPStatus.BAD_REQUEST -
+144.126.224.13 - - [08/Jun/2023 00:38:46] code 400, message Bad request version ("ad¿\x121D}.\x90¥\x00\x8aÀ\x12À\x13À\x07À'Ì\x14À/\x13\x01À\x14\x13\x02À(Ì©À0ÀsÀ`ÀrÀaÀ,ÀvÀ¯ÀwÀ\xadÌ¨À$\x13\x05À")
+144.126.224.13 - - [08/Jun/2023 00:38:46] "\x16\x03\x01\x01\x8f\x01\x00\x01\x8b\x03\x03\x94R¥<M@\x09Û|\x10\x9f¡\x80kÓÀ\x7f\x8cò£³ÃoVzÄ5"ÕÇ£ª \x0f4Ö\x01\x14\x11j\x96\x04Ö!æ\x8dÿ\x08F\x8c\x1b^ié\x1dad¿\x121D}.\x90¥\x00\x8aÀ\x12À\x13À\x07À'Ì\x14À/\x13\x01À\x14\x13\x02À(Ì©À0ÀsÀ`ÀrÀaÀ,ÀvÀ¯ÀwÀ­Ì¨À$\x13\x05À" HTTPStatus.BAD_REQUEST -
+167.248.133.50 - - [08/Jun/2023 02:36:38] code 400, message Bad request version ('À\x14À')
+167.248.133.50 - - [08/Jun/2023 02:36:38] "\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03EÉO:\x91\x14\x9aJ´\x83\x1b(;\x0b\x0d¿øç4µZ\x05w\x1d\x17à\x0cdÛ¹¾ò }\x98ªA;\x06\x1a)jî&\x99p¨È>\x1aHbý½\x04\x04L\x14ìC\x7f\x0eqV\x86\x00&Ì¨Ì©À/À0À+À,À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+167.248.133.50 - - [08/Jun/2023 02:36:39] "GET / HTTP/1.1" 200 -
+167.248.133.50 - - [08/Jun/2023 02:36:39] "GET / HTTP/1.1" 200 -
+167.248.133.50 - - [08/Jun/2023 02:36:40] code 505, message Invalid HTTP version (2.0)
+167.248.133.50 - - [08/Jun/2023 02:36:40] "PRI * HTTP/2.0" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+167.248.133.50 - - [08/Jun/2023 02:36:40] "GET /favicon.ico HTTP/1.1" 404 -
+205.210.31.2 - - [08/Jun/2023 03:47:34] "GET / HTTP/1.0" 200 -
+198.235.24.33 - - [08/Jun/2023 04:32:27] "GET / HTTP/1.1" 200 -
+66.175.213.4 - - [08/Jun/2023 04:55:24] "GET / HTTP/1.1" 200 -
+134.209.16.70 - - [08/Jun/2023 06:04:55] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x01ü\x01\x00\x01ø\x03\x03rqT\x977>\x06\x7f\x8a')
+134.209.16.70 - - [08/Jun/2023 06:04:55] "\x16\x03\x01\x01ü\x01\x00\x01ø\x03\x03rqT\x977>\x06\x7f\x8a\x1eá¸Ùæí\x13E-\x18«³.\x92.\x832\x10V\x9b\x9d\x00ô\x00\x01<Ì\x14Ì\x13Ì\x15À0À,À(À$À\x14À" HTTPStatus.BAD_REQUEST -
+198.235.24.233 - - [08/Jun/2023 06:36:08] "GET / HTTP/1.0" 200 -
+167.94.138.49 - - [08/Jun/2023 08:22:23] code 400, message Bad request version ('À\x14À')
+167.94.138.49 - - [08/Jun/2023 08:22:23] "\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03I\x07w\x15\x906\x86KÑÛÍy«K@\x0e\x0dáõ\x83\x16¼.\x14Áî®Éºß¦   WWÎWÿ¾\x10n\x07ÑjePà\x0fÊN\x0f\x8d\x84 Ñ_Té)¤$`\x85¶\x00&Ì¨Ì©À/À0À+À,À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+167.94.138.49 - - [08/Jun/2023 08:22:24] "GET / HTTP/1.1" 200 -
+167.94.138.49 - - [08/Jun/2023 08:22:24] "GET / HTTP/1.1" 200 -
+167.94.138.49 - - [08/Jun/2023 08:22:24] code 505, message Invalid HTTP version (2.0)
+167.94.138.49 - - [08/Jun/2023 08:22:24] "PRI * HTTP/2.0" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+167.94.138.49 - - [08/Jun/2023 08:22:24] "GET /favicon.ico HTTP/1.1" 404 -
+178.32.197.82 - - [08/Jun/2023 11:04:37] "GET / HTTP/1.1" 200 -
+142.4.218.114 - - [08/Jun/2023 11:37:10] "GET / HTTP/1.1" 200 -
+79.137.65.46 - - [08/Jun/2023 12:27:14] "GET /favicon.ico HTTP/1.1" 404 -
+79.137.65.46 - - [08/Jun/2023 12:45:52] "GET /favicon.ico HTTP/1.1" 404 -
+187.19.254.66 - - [08/Jun/2023 14:05:24] "OPTIONS /predict HTTP/1.1" 200 -
+187.19.254.66 - - [08/Jun/2023 14:05:24] "POST /predict HTTP/1.1" 200 -
+80.66.88.215 - - [08/Jun/2023 16:52:54] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+80.66.88.215 - - [08/Jun/2023 16:52:54] "\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+205.210.31.156 - - [08/Jun/2023 19:40:16] "GET / HTTP/1.0" 200 -
+87.236.176.227 - - [08/Jun/2023 20:01:11] "GET / HTTP/1.1" 200 -
+198.235.24.238 - - [08/Jun/2023 20:39:23] "GET / HTTP/1.0" 200 -
+172.105.128.11 - - [08/Jun/2023 23:38:12] code 400, message Bad request version ('À\x14À')
+172.105.128.11 - - [08/Jun/2023 23:38:12] "\x16\x03\x01\x00\x85\x01\x00\x00\x81\x03\x03Ó\x93\x97[\x02ø5bÏ|5\x86\x98æû°\x9aJÉ&õÿ\\nºÇRà.­ál\x00\x00 À/À0À+À,Ì¨Ì©À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+35.203.210.119 - - [09/Jun/2023 00:03:17] code 400, message Bad request version ('À(À$À\x14À')
+35.203.210.119 - - [09/Jun/2023 00:03:17] "\x16\x03\x01\x00Ê\x01\x00\x00Æ\x03\x03v\x9cò4ÓöVÚ@ô ¸\x8eX\x807ÊÅ\x9aBÀ4Å¶³ãá¤\x85\x173z\x00\x00hÌ\x14Ì\x13À/À+À0À,À\x11À\x07À'À#À\x13À\x09À(À$À\x14À" HTTPStatus.BAD_REQUEST -
+107.170.233.16 - - [09/Jun/2023 00:33:53] "GET / HTTP/1.1" 200 -
+198.235.24.13 - - [09/Jun/2023 00:46:06] "GET / HTTP/1.1" 200 -
+198.235.24.205 - - [09/Jun/2023 00:57:27] "GET / HTTP/1.1" 200 -
+20.3.138.225 - - [09/Jun/2023 01:18:04] "GET / HTTP/1.0" 200 -
+20.3.138.225 - - [09/Jun/2023 01:18:04] code 400, message Bad request version ('RTSP/1.0')
+20.3.138.225 - - [09/Jun/2023 01:18:04] "OPTIONS / RTSP/1.0" HTTPStatus.BAD_REQUEST -
+20.3.138.225 - - [09/Jun/2023 01:18:05] code 400, message Bad HTTP/0.9 request type ('\x00')
+20.3.138.225 - - [09/Jun/2023 01:18:05] "\x00\x1e\x00\x06\x01\x00\x00\x01\x00\x00\x00\x00\x00\x00\x07version\x04bind\x00\x00\x10\x00\x03" HTTPStatus.BAD_REQUEST -
+20.3.138.225 - - [09/Jun/2023 01:18:07] code 400, message Bad request version ('0.12\x00')
+20.3.138.225 - - [09/Jun/2023 01:18:07] "\x00\x00\x00¤ÿSMBr\x00\x00\x00\x00\x08\x01@\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00@\x06\x00\x00\x01\x00\x00\x81\x00\x02PC NETWORK PROGRAM 1.0\x00\x02MICROSOFT NETWORKS 1.03\x00\x02MICROSOFT NETWORKS 3.0\x00\x02LANMAN1.0\x00\x02LM1.2X002\x00\x02Samba\x00\x02NT LANMAN 1.0\x00\x02NT LM 0.12\x00" HTTPStatus.BAD_REQUEST -
+20.3.138.225 - - [09/Jun/2023 01:18:08] code 400, message Bad request version ('GetClassName\x00\x00\x00\x02\x04\x00\x00\x00\x00\x01\x00')
+20.3.138.225 - - [09/Jun/2023 01:18:08] "\x00\x00\x00\x1f\x00\x00\x00\x00\x00\x00\x00\x0cGetClassName\x00\x00\x00\x02\x04\x00\x00\x00\x00\x01\x00" HTTPStatus.BAD_REQUEST -
+20.3.138.225 - - [09/Jun/2023 01:18:08] "OPTIONS / HTTP/1.0" 200 -
+20.3.138.225 - - [09/Jun/2023 01:18:09] code 400, message Bad request version ('\x00\x01\x97|\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00')
+20.3.138.225 - - [09/Jun/2023 01:18:09] "\x80\x00\x00(rþ\x1d\x13\x00\x00\x00\x00\x00\x00\x00\x02\x00\x01\x86 \x00\x01\x97|\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00" HTTPStatus.BAD_REQUEST -
+20.3.138.225 - - [09/Jun/2023 01:18:09] code 400, message Bad request syntax ('HELP')
+20.3.138.225 - - [09/Jun/2023 01:18:09] "HELP" HTTPStatus.BAD_REQUEST -
+20.3.138.225 - - [09/Jun/2023 01:18:09] code 400, message Bad request syntax ('\x16\x03\x00\x00S\x01\x00\x00O\x03\x00?G×÷º,îê²`~ó\x00ý\x82{¹Õ\x96Èw\x9bæÄÛ<=Ûoï\x10n\x00\x00(\x00\x16\x00\x13\x00')
+20.3.138.225 - - [09/Jun/2023 01:18:09] "\x16\x03\x00\x00S\x01\x00\x00O\x03\x00?G×÷º,îê²`~ó\x00ý\x82{¹Õ\x96Èw\x9bæÄÛ<=Ûoï\x10n\x00\x00(\x00\x16\x00\x13\x00" HTTPStatus.BAD_REQUEST -
+20.3.138.225 - - [09/Jun/2023 01:18:09] code 400, message Bad request version ('\x00/\x00')
+20.3.138.225 - - [09/Jun/2023 01:18:09] "\x16\x03\x00\x00i\x01\x00\x00e\x03\x03U\x1c§ärandom1random2random3random4\x00\x00\x0c\x00/\x00" HTTPStatus.BAD_REQUEST -
+35.203.210.37 - - [09/Jun/2023 01:51:50] code 400, message Bad request version ('À(À$À\x14À')
+35.203.210.37 - - [09/Jun/2023 01:51:50] "\x16\x03\x01\x00Ê\x01\x00\x00Æ\x03\x03\x92\x93\x85äÌ-$ÛôYc\x0f3\x18\x11ËL­`\x11,\x91\x08Þ\x0bä2\x02wJ\x12¿\x00\x00hÌ\x14Ì\x13À/À+À0À,À\x11À\x07À'À#À\x13À\x09À(À$À\x14À" HTTPStatus.BAD_REQUEST -
+185.156.72.47 - - [09/Jun/2023 03:34:06] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+185.156.72.47 - - [09/Jun/2023 03:34:06] "\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+172.104.11.46 - - [09/Jun/2023 07:06:14] "GET / HTTP/1.1" 200 -
+185.156.72.47 - - [09/Jun/2023 11:18:44] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+185.156.72.47 - - [09/Jun/2023 11:18:44] "\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+94.102.61.47 - - [09/Jun/2023 12:33:31] "GET / HTTP/1.1" 200 -
+185.170.144.3 - - [09/Jun/2023 13:52:12] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+185.170.144.3 - - [09/Jun/2023 13:52:12] "\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+194.165.16.37 - - [09/Jun/2023 17:14:40] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+194.165.16.37 - - [09/Jun/2023 17:14:40] "\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+187.19.254.66 - - [09/Jun/2023 17:45:02] "OPTIONS /predict HTTP/1.1" 200 -
+187.19.254.66 - - [09/Jun/2023 17:45:03] "POST /predict HTTP/1.1" 200 -
+162.142.125.214 - - [09/Jun/2023 18:20:04] code 400, message Bad request version ('À\x14À')
+162.142.125.214 - - [09/Jun/2023 18:20:04] "\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03\x837²\x12R\x0b/7|µÎè9\x09\x95M~\x029\x86Xû¢zM=\x05Àý\x99\x95\x9e ø¤Ë¸\x14c&\x84rÀ\x8a<îZ^P\x9dP\x95uêÄÖø±\x08¬¦z,¶w\x00&Ì¨Ì©À/À0À+À,À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+162.142.125.214 - - [09/Jun/2023 18:20:05] "GET / HTTP/1.1" 200 -
+162.142.125.214 - - [09/Jun/2023 18:20:06] "GET / HTTP/1.1" 200 -
+162.142.125.214 - - [09/Jun/2023 18:20:06] code 505, message Invalid HTTP version (2.0)
+162.142.125.214 - - [09/Jun/2023 18:20:06] "PRI * HTTP/2.0" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+162.142.125.214 - - [09/Jun/2023 18:20:06] "GET /favicon.ico HTTP/1.1" 404 -
+139.59.73.11 - - [09/Jun/2023 18:37:23] code 400, message Bad request version ('À\x14À')
+139.59.73.11 - - [09/Jun/2023 18:37:23] "\x16\x03\x01\x00{\x01\x00\x00w\x03\x03\x9d%v\x13qzr\x90\x91Jí\x00¾O\x13À\x15«.øq5\x1eÅ/íñI#_\x88U\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+139.59.73.11 - - [09/Jun/2023 18:37:24] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03!¶õ\x05nóüP«cB#\x9f""m§\x8416\x8f\x8a\x14×ä\x9fb¡·a¨ª\x00\x00\x1aÀ/À+À\x11À\x07À\x13À')
+139.59.73.11 - - [09/Jun/2023 18:37:24] "\x16\x03\x01\x00{\x01\x00\x00w\x03\x03!¶õ\x05nóüP«cB#\x9f""m§\x8416\x8f\x8a\x14×ä\x9fb¡·a¨ª\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+139.59.73.11 - - [09/Jun/2023 18:37:24] "GET / HTTP/1.1" 200 -
+189.40.100.183 - - [09/Jun/2023 22:35:36] "OPTIONS /predict HTTP/1.1" 200 -
+189.40.100.183 - - [09/Jun/2023 22:35:37] "POST /predict HTTP/1.1" 200 -
+45.79.181.251 - - [09/Jun/2023 23:56:28] code 400, message Bad request version ('À\x14À')
+45.79.181.251 - - [09/Jun/2023 23:56:28] "\x16\x03\x01\x00\x85\x01\x00\x00\x81\x03\x03\x0bOÚ\x05.¼\x07o \x1c\x1d5T\x99¯þ\x96-f,¯\x85²o©²Ù°ª\x98 á\x00\x00 À/À0À+À,Ì¨Ì©À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
